@@ -8,14 +8,14 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<tycho-version>0.24.0</tycho-version>
+		<tycho-version>2.2.0</tycho-version>
 	</properties>
 
 	<repositories>
 		<repository>
-			<id>eclipse-mars</id>
+			<id>eclipse-release</id>
 			<layout>p2</layout>
-			<url>http://download.eclipse.org/releases/mars</url>
+			<url>http://download.eclipse.org/releases/latest</url>
 		</repository>
 	</repositories>
 
@@ -78,7 +78,7 @@
 		<module>../com.vainolo.phd.opp.validation</module>
 		<module>../com.vainolo.phd.opp.validation.tests</module>
 		<module>../com.vainolo.phd.opp.interpreter</module>
-		<module>../com.vainolo.phd.opp.interpreter.tests</module>
+		<!--module>../com.vainolo.phd.opp.interpreter.tests</module-->
 		<module>../com.vainolo.phd.opp.feature</module>
 		<module>../com.vainolo.phd.opp.releng.p2</module>
 		<module>../com.vainolo.phd.opp.java-dependencies</module>
